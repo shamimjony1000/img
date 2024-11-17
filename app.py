@@ -11,7 +11,7 @@ import io
 load_dotenv()
 
 # Configure Gemini Pro
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key="AIzaSyCLyDgZNcE_v4wLMFF8SoimKga9bbLSun0")
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 def process_image(uploaded_file):
