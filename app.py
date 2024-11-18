@@ -98,7 +98,7 @@ def process_image(uploaded_file):
         return None
 
 def main():
-    st.title("Medicine Price List Extractor")
+    st.title("Jony Prachine Bangla Medicine Price List Extractor")
     st.write("Upload an image of the medicine price list to extract data in the following order:")
     st.write("1. SL (Serial Number)")
     st.write("2. Product")
